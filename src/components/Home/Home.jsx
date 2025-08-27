@@ -1,10 +1,9 @@
 import React from 'react'
 import "./Home.css"
-import man from "../../assets/man.png"
+
 import TypingEffect from "react-typing-effect"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
- import resume from "../../assets/resume.pdf"
 function Home() {
 
 useGSAP(()=>{
@@ -46,11 +45,11 @@ useGSAP(()=>{
       cursor='|'
       />
     </div>
-    <button><a href={resume}> RESUME</a></button>
+    <button><a href={'/pdfs/resume.pdf'}> RESUME</a></button>
 </div>
 </div>
 <div className="righthome">
-    <img src={man} alt="" />
+    <img src={'/imgs/man.png'} alt="" />
 </div>
     </div>
   )

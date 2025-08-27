@@ -1,9 +1,7 @@
 import React from 'react'
 import "./About.css"
 import Card from '../Card/Card'
-import office from "../../assets/office.png"
-import js from "../../assets/jS.png"
-import dsa from "../../assets/dsa.png"
+
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -68,7 +66,7 @@ function About() {
   
       start:"top 60%",
       end:"top 30%"
-      
+
 
     }
 
@@ -151,9 +149,9 @@ JAVASCRIPT
 </div>
 </div>
 <div className="rightabout">
-<Card title="MS OFFICE" image={office}/>
-<Card title="JAVASCRIPT" image={js}/>
-<Card title="DSA" image={dsa}/>
+<Card title="MS OFFICE" image={'/imgs/office.png'}/>
+<Card title="JAVASCRIPT" image={'/imgs/js.png'}/>
+<Card title="DSA" image={'/imgs/dsa.png'}/>
 </div>
     </div>
   )

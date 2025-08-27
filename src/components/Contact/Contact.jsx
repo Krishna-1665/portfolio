@@ -1,5 +1,5 @@
 import React from 'react'
-import con from "../../assets/contact.png"
+
 import "./Contact.css"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -41,7 +41,7 @@ function Contact() {
   return (
     <div id="contact">
         <div className="leftcontact">
-            <img src={con} alt="" />
+            <img src={'/imgs/con.png'} alt="" />
         </div>
         <div className="rightcontact">
             <form action="https://formspree.io/f/mandybqj" method='POST'>

@@ -1,20 +1,4 @@
-import React from 'react'
 import Card from '../Card/Card'
-import va from "../../assets/va.png"
-import lms from "../../assets/lms.png"
-import tl from "../../assets/tl.png"
-import wa from "../../assets/wa.png"
-import lp from "../../assets/lp.png"
-import bc from "../../assets/bc.png"
-
-import cujs from "../../assets/cujs.png"
-
-import cup from "../../assets/cup.png"
-
-import pg from "../../assets/pg.png"
-
-import ss from "../../assets/ss.png"
-
 
 import "./Projects.css"
 import { useGSAP } from '@gsap/react'
@@ -59,20 +43,20 @@ useGSAP(()=>{
     <div id="projects">
         <h1 id="para">MY PROJECTS</h1>
         <div className="slider">
-<Card title="VIRTUAL ASSISTANT" image={va}/>
-<Card title="LIBRARY MANAGEMENT SYSTEM" image={lms}/>
-<Card title="TODO'S LIST" image={tl}/>
-<Card title="WEATHER APP" image={wa}/>
-<Card title="TWITTER LOGIN PAGE" image={lp}/>
-<Card title="BMI CALCULATOR" image={bc}/>
+<Card title="VIRTUAL ASSISTANT" image={'/imgs/va.png'}/>
+<Card title="LIBRARY MANAGEMENT SYSTEM" image={'/imgs/lms.png'}/>
+<Card title="TODO'S LIST" image={'/imgs/tl.png'}/>
+<Card title="WEATHER APP" image={'/imgs/wa.png'}/>
+<Card title="TWITTER LOGIN PAGE" image={'/imgs/lp.png'}/>
+<Card title="BMI CALCULATOR" image={'/imgs/bc.png'}/>
 
-<Card title="CLOCK USING JS" image={cujs}/>
+<Card title="CLOCK USING JS" image={'/imgs/cujs.png'}/>
 
-<Card title="CLOCK USING PYTHON" image={cup}/>
+<Card title="CLOCK USING PYTHON" image={'/imgs/cup.png'}/>
 
-<Card title="PASSWORD GENERATOR" image={pg}/>
+<Card title="PASSWORD GENERATOR" image={'/imgs/pg.png'}/>
 
-<Card title="SOLAR SYSTEM" image={ss}/>
+<Card title="SOLAR SYSTEM" image={'/imgs/ss.png'}/>
 
 
         </div>
