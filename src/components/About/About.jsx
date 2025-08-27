@@ -68,6 +68,7 @@ function About() {
   
       start:"top 60%",
       end:"top 30%"
+      
 
     }
 
