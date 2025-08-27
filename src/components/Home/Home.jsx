@@ -45,7 +45,7 @@ useGSAP(()=>{
       cursor='|'
       />
     </div>
-    <button><a href={'/pdfs/resume.pdf'}> RESUME</a></button>
+    <button><a href={'/pdfs/resume.pdf'}>  GET RESUME</a></button>
 </div>
 </div>
 <div className="righthome">
