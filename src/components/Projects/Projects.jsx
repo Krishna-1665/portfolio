@@ -5,6 +5,16 @@ import lms from "../../assets/lms.png"
 import tl from "../../assets/tl.png"
 import wa from "../../assets/wa.png"
 import lp from "../../assets/lp.png"
+import bc from "../../assets/bc.png"
+
+import cujs from "../../assets/cujs.png"
+
+import cup from "../../assets/cup.png"
+
+import pg from "../../assets/pg.png"
+
+import ss from "../../assets/ss.png"
+
 
 import "./Projects.css"
 import { useGSAP } from '@gsap/react'
@@ -54,6 +64,16 @@ useGSAP(()=>{
 <Card title="TODO'S LIST" image={tl}/>
 <Card title="WEATHER APP" image={wa}/>
 <Card title="TWITTER LOGIN PAGE" image={lp}/>
+<Card title="BMI CALCULATOR" image={bc}/>
+
+<Card title="CLOCK USING JS" image={cujs}/>
+
+<Card title="CLOCK USING PYTHON" image={cup}/>
+
+<Card title="PASSWORD GENERATOR" image={pg}/>
+
+<Card title="SOLAR SYSTEM" image={ss}/>
+
 
         </div>
     </div>
